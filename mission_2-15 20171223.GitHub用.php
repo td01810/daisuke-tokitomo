@@ -1,10 +1,10 @@
 ﻿<?php
 //データベースに接続
-$dsn='mysql:dbname=co_1020_it_99sv_coco_com;host=localhost';
+$dsn='mysql:データベース名;host=localhost';
 
-$user='co-1020.it.99sv-';
+$user='ユーザー名';
 
-$password='Bctcd5xd';
+$password='パスワード';
 
 $pdo=new PDO($dsn,$user,$password);
 
